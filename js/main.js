@@ -1,4 +1,3 @@
-// Write your code here
 const inputFromCurrency = document.getElementById('convert-from');
 const inputToCurrency = document.getElementById('convert-to');
 
@@ -9,7 +8,6 @@ const button = document.querySelector('.btn');
 const output = document.getElementById('output');
 
 button.addEventListener('click', (event) => {
-    // damit wird die Seite nicht neu geladen:
     event.preventDefault();
 
     let fromCurrency = inputFromCurrency.value;
